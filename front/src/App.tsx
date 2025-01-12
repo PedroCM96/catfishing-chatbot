@@ -168,6 +168,7 @@ function App() {
                      padding: '8px 16px',
                      backgroundColor: m.from === 'user' ? 'yellowgreen' : 'blueviolet',
                      borderRadius: '16px',
+                     color: 'white',
                      textAlign: m.from === 'user' ? 'left' : 'right',
                  }}>
                      {m.from && <span></span>}{m.message}
